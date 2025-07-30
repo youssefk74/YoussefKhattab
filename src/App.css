@@ -1,9 +1,11 @@
-html {
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
 }
 
 /* Animation */
-
 .fade-in-section {
   opacity: 0;
   transform: translateY(10vh);
@@ -21,8 +23,10 @@ html {
   font-family: "NTR";
   background-color: var(--navy);
   display: flex;
-  margin: auto;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,12 +37,14 @@ a {
   color: var(--green-bright) !important;
 }
 
+/* Main page content area that grows to push footer down */
 #content {
-  /* padding: 80px 200px; */
+  flex: 1;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .rs-steps-horizontal .rs-steps-item-content {
   text-align: left;
 }
@@ -60,6 +66,7 @@ a {
   font-size: calc(10px + 2vmin);
 }
 
+/* Section Headers */
 .section-header {
   display: flex;
   padding-bottom: 42px;
@@ -83,6 +90,7 @@ a {
   font-weight: bold;
 }
 
+/* Responsive styles */
 @media only screen and (max-width: 600px) {
   .App {
     flex-direction: column;
