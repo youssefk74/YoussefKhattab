@@ -1,0 +1,36 @@
+footer {
+  background-color: var(--navy); /* changed from --dark-navy */
+  color: var(--lightest-slate);
+  padding: 40px 0 20px;
+  text-align: center;
+  border-top: 1px solid var(--light-navy);
+  margin-top: 50px;
+  
+}
+
+footer a {
+  color: var(--lightest-slate);
+  text-decoration: none;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--contact); /* Bright green hover */
+}
+
+footer .nav-link {
+  font-size: 16px;
+  padding: 6px 12px;
+}
+
+footer .nav-link svg {
+  vertical-align: middle;
+}
+
+footer small {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--light-slate);
+}
