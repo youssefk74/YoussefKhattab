@@ -1,0 +1,22 @@
+:root {
+  /* Dark teal/navy colors from the logo */
+  --dark-navy: #1a3d3d;           /* Deep teal-green */
+  --navy: #2d5555;                /* Dark teal */
+  --light-navy: #3d6b6b;          /* Medium teal */
+  --lightest-navy: #4d7d7d;       /* Light teal */
+  --navy-shadow: rgba(26, 61, 61, 0.7);  /* Dark teal shadow */
+  --contact : #01a401 ;
+  /* Slate variations in teal tones */
+  --slate: #6b9999;               /* Muted teal */
+  --light-slate: #85b3b3;         /* Light teal */
+  --lightest-slate: #b3d1d1;      /* Very light teal */
+  
+  /* Clean whites and greens from logo */
+  --white: #ffffff;               /* Pure white */
+  --green-bright: #4CAF50;        /* Vibrant green from logo */
+  --green-tint: rgba(76, 175, 80, 0.1);  /* Green tint overlay */
+  
+  /* Additional accent colors */
+  --accent-green: #66BB6A;        /* Lighter green accent */
+  --dark-green: #388E3C;          /* Darker green accent */
+}
