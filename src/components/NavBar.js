@@ -32,8 +32,8 @@ class NavBar extends React.Component {
                 CV
               </Nav.Link>
               <Nav.Link 
-                href="/assets/Youssef_Khattab_CV.pdf" 
-                download="Youssef_Khattab_CV.pdf"
+                href="/assets/port.pdf" 
+                download="port.pdf"
                 className="cv-link"
               >
                 Portfolio
